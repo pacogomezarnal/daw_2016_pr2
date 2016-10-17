@@ -1,0 +1,25 @@
+prueba_contactar:
+    path:     /contactar/{lugar}
+    defaults: { _controller: PruebaBundle:Default:contactar,lugar:'vlc'}
+prueba_contactar_vlc:
+    path:     /contactarVlc
+    defaults: { _controller: PruebaBundle:Default:contactarVlc}
+prueba_homepage:
+    path:     /
+    defaults: { _controller: PruebaBundle:Default:index }
+
+prueba_nombre:
+    path:     /nombre/{nPila}
+    defaults: { _controller: PruebaBundle:Default:nombre}
+
+prueba_nombreR:
+    path:     /nombreR/{nPila}
+    defaults: { _controller: PruebaBundle:Default:nombreR}
+
+all_eventos:
+    path:     /eventos/all
+    defaults: { _controller: PruebaBundle:Eventos:all }
+
+nuevo_eventos:
+    path:     /eventos/nuevo
+    defaults: { _controller: PruebaBundle:Eventos:nuevo }
